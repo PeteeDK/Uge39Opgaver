@@ -12,5 +12,5 @@ class Opgave1:
 
     def Run(self):
         self.__EnterNr()
-        self.__Average()
+        self.Average()
 
