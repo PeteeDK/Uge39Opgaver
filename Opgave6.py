@@ -8,7 +8,7 @@ class Exercise6:
         if (int(self._input)%2) == 0:
             print("It's an even number")
         else:
-            print("it's an uneven number")
+            print("It's an odd number")
 
     def run(self):
         self.__input()

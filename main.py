@@ -4,6 +4,8 @@ import Opgave3
 import Opgave4
 import Opgave5
 import Opgave6
+import Opgave7
+import Opgave8
 import OpgaveCounter
 """"
 number1 = int(input("number1"))
@@ -57,4 +59,11 @@ newOpgave5b = Opgave5.Exercise5b()
 #newOpgave5b.run()
 
 newOpgave6= Opgave6.Exercise6()
-newOpgave6.run()
+#newOpgave6.run()
+
+newOpgave7 = Opgave7.Exercise7()
+#newOpgave7.createList()
+#newOpgave7.prinList()
+
+NewOpgave8 = Opgave8.Exercise8()
+NewOpgave8.EnterNumberInList()

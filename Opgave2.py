@@ -3,7 +3,7 @@ class Exercise2:
     width = 0
 
     def EnterSize(self):
-        self.length = input("Please enter the lenght of the room in meters: ")
+        self.length = input("Please enter the length of the room in meters: ")
         self.width = input("Please enter the width of the room in meters: ")
 
     def AreaOfRoom(self):

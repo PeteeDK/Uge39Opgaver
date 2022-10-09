@@ -7,8 +7,8 @@ class Exercise3:
 
     def PrintOutTemp(self):
         if self.temp <= 0:
-            print("Warning: Low temperatur")
+            print("Warning: Low temperature")
         elif self.temp <= 34:
-            print("Temperatur is okay")
+            print("Temperature is okay")
         else:
-            print("Warning: temperatur too HIGH!")
+            print("Warning: Temperature too HIGH!")
