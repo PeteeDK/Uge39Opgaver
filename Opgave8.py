@@ -3,8 +3,8 @@ class Exercise8:
     _list = []
     _inputX = None
 
-    def EnterNumberInList(self):
-        _inputX = input("Please insert a number")
+    def __EnterNumberInList(self):
+        _inputX = input("Please insert a number or enter quit: ")
         if _inputX == "quit":
             print("Program Ended")
             print(self._list)
@@ -22,3 +22,5 @@ class Exercise8:
                 print(str(self._list) + "\n")
                 _inputX = input("Please insert a number")
 
+    def run(self):
+        self.__EnterNumberInList()
